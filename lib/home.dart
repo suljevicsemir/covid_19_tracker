@@ -1,4 +1,3 @@
-import 'package:covid_19_tracker/TabItem.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class Home extends StatefulWidget {
@@ -13,6 +12,10 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.purple,
+
+      ),
       bottomNavigationBar: _buildBottomAppBar(),
 
     );
