@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
                 color: _selectedPosition == 1 ? Colors.blue[600]: Colors.transparent,
                 borderRadius: BorderRadius.circular(20.0)
             ),
-            child: Icon(Icons.business),
+            child: Icon(Icons.insert_chart),
           ),
           title: Text('Home'),
         ),
@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
                 color: _selectedPosition == 2 ? Colors.blue[600]: Colors.transparent,
                 borderRadius: BorderRadius.circular(20.0)
             ),
-            child: Icon(Icons.school),
+            child: Icon(Icons.location_city),
           ),
           title: Text('Home'),
         ),
