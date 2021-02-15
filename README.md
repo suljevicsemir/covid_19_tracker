@@ -2,6 +2,8 @@
 
 Covid-19 presence tracker for Sarajevo and Bosnia and Herzegovina.
 
+Project abandoned because my shitty country had zero APIs to collect data from.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
